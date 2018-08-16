@@ -1,0 +1,91 @@
+﻿@model Phonebook.Models.PeopleModel
+
+@{
+    ViewData["Title"] = "Remove";
+}
+
+<div class="row" style="margin-top: 50px"></div>
+
+<div class="row">
+    <div class="col-md-3"></div>
+    <div class="col-md-6">
+
+        <form asp-controller="Person" asp-action="Remove" asp-antiforgery="true" class="form-control" method="post">
+
+
+
+            <div class="form-group">
+
+                <fieldset>
+                    <legend style="text-align: center; margin-bottom: 20px;">Remove Record</legend>
+
+                    <div>
+                        <input type="hidden" asp-for="Id" class="form-control" />
+                        <br />
+                    </div>
+
+                    <label asp-for="FirstName" style="text-decoration-style: solid"></label>
+                    <div>
+                        <input type="text" asp-for="FirstName" class="form-control" readonly />
+                        <br />
+                    </div>
+
+                    <label asp-for="LastName"></label>
+                    <div>
+                        <input type="text" asp-for="LastName" class="form-control" readonly />
+                        <br />
+                    </div>
+
+                    <label asp-for="Phone"></label>
+                    <div>
+                        <input type="tel" asp-for="Phone" class="form-control" readonly />
+                        <br />
+                    </div>
+
+                    <label asp-for="Email"></label>
+                    <div>
+                        <input type="email" asp-for="Email" class="form-control" readonly />
+                        <br />
+                    </div>
+                    
+                    <div>
+                        <input type="hidden" asp-for="Created" class="form-control" />
+
+                        <br />
+                    </div>
+                    
+                    <div>
+                        <input type="hidden" asp-for="Updated" class="form-control" />
+                        <br />
+                    </div>
+
+                    <div style="text-align: center">
+
+                        <div style="display: inline-block">
+                            <a href="@Url.Action("Index", "Person",new { id = 1 })">
+                                <button class="btn btn-outline-info" type="button"><i class="fa fa-arrow-left"></i></button>
+                            </a>
+                        </div>
+
+                        <div style="display: inline-block">
+                            <button type="submit" class="btn btn-outline-danger">Remove</button>
+                        </div>
+                    </div>
+
+                </fieldset>
+
+            </div>
+
+
+        </form>
+
+    </div>
+    <div class="col-md-3"></div>
+
+</div>
+
+
+
+
+
+

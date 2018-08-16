@@ -1,0 +1,99 @@
+﻿@model Phonebook.Models.PeopleModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<div class="row" style="margin-top: 50px"></div>
+
+<div class="row">
+    <div class="col-md-3"></div>
+    <div class="col-md-6">
+
+        <form asp-controller="Person" asp-action="Edit" asp-antiforgery="true" class="form-control" method="post">
+
+
+
+            <div class="form-group">
+
+                <fieldset>
+                    <legend style="text-align: center; margin-bottom: 20px;">Edit Record</legend>
+
+                    <div>
+                        <input type="hidden" asp-for="Id" class="form-control" />
+                        <span asp-validation-for="Id"></span>
+                        <br />
+                    </div>
+
+                    <label asp-for="FirstName" style="text-decoration-style: solid"></label>
+                    <div>
+                        <input type="text" asp-for="FirstName" class="form-control" />
+                        <span asp-validation-for="FirstName"></span>
+                        <br />
+                    </div>
+
+                    <label asp-for="LastName"></label>
+                    <div>
+                        <input type="text" asp-for="LastName" class="form-control" />
+                        <span asp-validation-for="LastName"></span>
+                        <br />
+                    </div>
+
+                    <label asp-for="Phone"></label>
+                    <div>
+                        <input type="tel" asp-for="Phone" class="form-control" />
+                        <span asp-validation-for="Phone"></span>
+                        <br />
+                    </div>
+
+                    <label asp-for="Email"></label>
+                    <div>
+                        <input type="email" asp-for="Email" class="form-control" />
+                        <span asp-validation-for="Email"></span>
+                        <br />
+                    </div>
+                    
+                    <div>
+                        <input type="hidden" asp-for="Created" class="form-control" />
+                        <span asp-validation-for="Created"></span>
+                        <br />
+                    </div>
+                    
+                    <div>
+                        <input type="hidden" asp-for="Updated" class="form-control" />
+                        <span asp-validation-for="Updated"></span>
+                        <br />
+                    </div>
+                    
+
+                    
+                    <div style="text-align: center">
+                        
+                        <div style="display: inline-block">
+                            <a href="@Url.Action("Index", "Person",new { id = 1 })">
+                                <button class="btn btn-outline-info" type="button"><i class="fa fa-arrow-left"></i></button>
+                            </a>
+                        </div>
+
+                        <div style="display: inline-block">
+                            <button type="submit" class="btn btn-outline-success">Edit</button>
+                        </div>
+                    </div>
+
+                </fieldset>
+
+            </div>
+
+
+        </form>
+
+    </div>
+    <div class="col-md-3"></div>
+
+</div>
+
+
+
+
+
+

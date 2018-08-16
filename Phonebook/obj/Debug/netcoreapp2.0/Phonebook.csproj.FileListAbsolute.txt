@@ -1,0 +1,11 @@
+C:\Users\Nowak\Coding\NET CodersLab\05_Podstawy_MVC\Phonebook\Phonebook\Phonebook\bin\Debug\netcoreapp2.0\Phonebook.deps.json
+C:\Users\Nowak\Coding\NET CodersLab\05_Podstawy_MVC\Phonebook\Phonebook\Phonebook\bin\Debug\netcoreapp2.0\Phonebook.runtimeconfig.json
+C:\Users\Nowak\Coding\NET CodersLab\05_Podstawy_MVC\Phonebook\Phonebook\Phonebook\bin\Debug\netcoreapp2.0\Phonebook.runtimeconfig.dev.json
+C:\Users\Nowak\Coding\NET CodersLab\05_Podstawy_MVC\Phonebook\Phonebook\Phonebook\bin\Debug\netcoreapp2.0\Phonebook.dll
+C:\Users\Nowak\Coding\NET CodersLab\05_Podstawy_MVC\Phonebook\Phonebook\Phonebook\obj\Debug\netcoreapp2.0\Phonebook.csprojAssemblyReference.cache
+C:\Users\Nowak\Coding\NET CodersLab\05_Podstawy_MVC\Phonebook\Phonebook\Phonebook\obj\Debug\netcoreapp2.0\Phonebook.csproj.CoreCompileInputs.cache
+C:\Users\Nowak\Coding\NET CodersLab\05_Podstawy_MVC\Phonebook\Phonebook\Phonebook\obj\Debug\netcoreapp2.0\Phonebook.AssemblyInfoInputs.cache
+C:\Users\Nowak\Coding\NET CodersLab\05_Podstawy_MVC\Phonebook\Phonebook\Phonebook\obj\Debug\netcoreapp2.0\Phonebook.AssemblyInfo.cs
+C:\Users\Nowak\Coding\NET CodersLab\05_Podstawy_MVC\Phonebook\Phonebook\Phonebook\bin\Debug\netcoreapp2.0\Phonebook.pdb
+C:\Users\Nowak\Coding\NET CodersLab\05_Podstawy_MVC\Phonebook\Phonebook\Phonebook\obj\Debug\netcoreapp2.0\Phonebook.dll
+C:\Users\Nowak\Coding\NET CodersLab\05_Podstawy_MVC\Phonebook\Phonebook\Phonebook\obj\Debug\netcoreapp2.0\Phonebook.pdb
